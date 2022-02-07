@@ -1,234 +1,162 @@
-const people = [
-    {
+const people = [{
     "id": 1,
-    "name": "Leanne Graham",
-    "username": "Bret",
-    "email": "Sincere@april.biz",
-    "address": {
-    "street": "Kulas Light",
-    "suite": "Apt. 556",
-    "city": "Gwenborough",
-    "zipcode": "92998-3874",
-    "geo": {
-    "lat": "-37.3159",
-    "lng": "81.1496"
-    }
-    },
-    "phone": "1-770-736-8031 x56442",
-    "website": "hildegard.org",
-    "company": {
-    "name": "Romaguera-Crona",
-    "catchPhrase": "Multi-layered client-server neural-net",
-    "bs": "harness real-time e-markets"
-    }
-    },
-    {
+    "first_name": "Shea",
+    "last_name": "Egdal",
+    "gender": "Bigender",
+    "email": "segdal0@sphinn.com",
+    "avatar": "https://robohash.org/rationeexrerum.png?size=50x50&set=set2"
+  }, {
     "id": 2,
-    "name": "Ervin Howell",
-    "username": "Antonette",
-    "email": "Shanna@melissa.tv",
-    "address": {
-    "street": "Victor Plains",
-    "suite": "Suite 879",
-    "city": "Wisokyburgh",
-    "zipcode": "90566-7771",
-    "geo": {
-    "lat": "-43.9509",
-    "lng": "-34.4618"
-    }
-    },
-    "phone": "010-692-6593 x09125",
-    "website": "anastasia.net",
-    "company": {
-    "name": "Deckow-Crist",
-    "catchPhrase": "Proactive didactic contingency",
-    "bs": "synergize scalable supply-chains"
-    }
-    },
-    {
+    "first_name": "Miof mela",
+    "last_name": "Crowhurst",
+    "gender": "Female",
+    "email": "mcrowhurst1@ed.gov",
+    "avatar": "https://robohash.org/sedestipsum.png?size=50x50&set=set2"
+  }, {
     "id": 3,
-    "name": "Clementine Bauch",
-    "username": "Samantha",
-    "email": "Nathan@yesenia.net",
-    "address": {
-    "street": "Douglas Extension",
-    "suite": "Suite 847",
-    "city": "McKenziehaven",
-    "zipcode": "59590-4157",
-    "geo": {
-    "lat": "-68.6102",
-    "lng": "-47.0653"
-    }
-    },
-    "phone": "1-463-123-4447",
-    "website": "ramiro.info",
-    "company": {
-    "name": "Romaguera-Jacobson",
-    "catchPhrase": "Face to face bifurcated interface",
-    "bs": "e-enable strategic applications"
-    }
-    },
-    {
+    "first_name": "Vittorio",
+    "last_name": "Dand",
+    "gender": "Male",
+    "email": "vdand2@china.com.cn",
+    "avatar": "https://robohash.org/rerumofficiissunt.png?size=50x50&set=set2"
+  }, {
     "id": 4,
-    "name": "Patricia Lebsack",
-    "username": "Karianne",
-    "email": "Julianne.OConner@kory.org",
-    "address": {
-    "street": "Hoeger Mall",
-    "suite": "Apt. 692",
-    "city": "South Elvis",
-    "zipcode": "53919-4257",
-    "geo": {
-    "lat": "29.4572",
-    "lng": "-164.2990"
-    }
-    },
-    "phone": "493-170-9623 x156",
-    "website": "kale.biz",
-    "company": {
-    "name": "Robel-Corkery",
-    "catchPhrase": "Multi-tiered zero tolerance productivity",
-    "bs": "transition cutting-edge web services"
-    }
-    },
-    {
+    "first_name": "Benita",
+    "last_name": "Fenix",
+    "gender": "Male",
+    "email": "bfenix3@huffingtonpost.com",
+    "avatar": "https://robohash.org/voluptaseaqueenim.png?size=50x50&set=set2"
+  }, {
     "id": 5,
-    "name": "Chelsey Dietrich",
-    "username": "Kamren",
-    "email": "Lucio_Hettinger@annie.ca",
-    "address": {
-    "street": "Skiles Walks",
-    "suite": "Suite 351",
-    "city": "Roscoeview",
-    "zipcode": "33263",
-    "geo": {
-    "lat": "-31.8129",
-    "lng": "62.5342"
-    }
-    },
-    "phone": "(254)954-1289",
-    "website": "demarco.info",
-    "company": {
-    "name": "Keebler LLC",
-    "catchPhrase": "User-centric fault-tolerant solution",
-    "bs": "revolutionize end-to-end systems"
-    }
-    },
-    {
+    "first_name": "Codie",
+    "last_name": "Gidley",
+    "gender": "Female",
+    "email": "cgidley4@ifeng.com",
+    "avatar": "https://robohash.org/omnisquiasapiente.png?size=50x50&set=set2"
+  }, {
     "id": 6,
-    "name": "Mrs. Dennis Schulist",
-    "username": "Leopoldo_Corkery",
-    "email": "Karley_Dach@jasper.info",
-    "address": {
-    "street": "Norberto Crossing",
-    "suite": "Apt. 950",
-    "city": "South Christy",
-    "zipcode": "23505-1337",
-    "geo": {
-    "lat": "-71.4197",
-    "lng": "71.7478"
-    }
-    },
-    "phone": "1-477-935-8478 x6430",
-    "website": "ola.org",
-    "company": {
-    "name": "Considine-Lockman",
-    "catchPhrase": "Synchronised bottom-line interface",
-    "bs": "e-enable innovative applications"
-    }
-    },
-    {
+    "first_name": "Davin",
+    "last_name": "Orum",
+    "gender": "Female",
+    "email": "dorum5@ustream.tv",
+    "avatar": "https://robohash.org/dolorsedsoluta.png?size=50x50&set=set2"
+  }, {
     "id": 7,
-    "name": "Kurtis Weissnat",
-    "username": "Elwyn.Skiles",
-    "email": "Telly.Hoeger@billy.biz",
-    "address": {
-    "street": "Rex Trail",
-    "suite": "Suite 280",
-    "city": "Howemouth",
-    "zipcode": "58804-1099",
-    "geo": {
-    "lat": "24.8918",
-    "lng": "21.8984"
-    }
-    },
-    "phone": "210.067.6132",
-    "website": "elvis.io",
-    "company": {
-    "name": "Johns Group",
-    "catchPhrase": "Configurable multimedia task-force",
-    "bs": "generate enterprise e-tailers"
-    }
-    },
-    {
+    "first_name": "Coletta",
+    "last_name": "D'Onisi",
+    "gender": "Male",
+    "email": "cdonisi6@europa.eu",
+    "avatar": "https://robohash.org/consequaturveniamsit.png?size=50x50&set=set2"
+  }, {
     "id": 8,
-    "name": "Nicholas Runolfsdottir V",
-    "username": "Maxime_Nienow",
-    "email": "Sherwood@rosamond.me",
-    "address": {
-    "street": "Ellsworth Summit",
-    "suite": "Suite 729",
-    "city": "Aliyaview",
-    "zipcode": "45169",
-    "geo": {
-    "lat": "-14.3990",
-    "lng": "-120.7677"
-    }
-    },
-    "phone": "586.493.6943 x140",
-    "website": "jacynthe.com",
-    "company": {
-    "name": "Abernathy Group",
-    "catchPhrase": "Implemented secondary concept",
-    "bs": "e-enable extensible e-tailers"
-    }
-    },
-    {
+    "first_name": "Harrie",
+    "last_name": "Guirard",
+    "gender": "Male",
+    "email": "hguirard7@moonfruit.com",
+    "avatar": "https://robohash.org/sitaliquamaperiam.png?size=50x50&set=set2"
+  }, {
     "id": 9,
-    "name": "Glenna Reichert",
-    "username": "Delphine",
-    "email": "Chaim_McDermott@dana.io",
-    "address": {
-    "street": "Dayna Park",
-    "suite": "Suite 449",
-    "city": "Bartholomebury",
-    "zipcode": "76495-3109",
-    "geo": {
-    "lat": "24.6463",
-    "lng": "-168.8889"
-    }
-    },
-    "phone": "(775)976-6794 x41206",
-    "website": "conrad.com",
-    "company": {
-    "name": "Yost and Sons",
-    "catchPhrase": "Switchable contextually-based project",
-    "bs": "aggregate real-time technologies"
-    }
-    },
-    {
+    "first_name": "Killie",
+    "last_name": "Nertney",
+    "gender": "Female",
+    "email": "knertney8@merriam-webster.com",
+    "avatar": "https://robohash.org/ducimusvelqui.png?size=50x50&set=set2"
+  }, {
     "id": 10,
-    "name": "Clementina DuBuque",
-    "username": "Moriah.Stanton",
-    "email": "Rey.Padberg@karina.biz",
-    "address": {
-    "street": "Kattie Turnpike",
-    "suite": "Suite 198",
-    "city": "Lebsackbury",
-    "zipcode": "31428-2261",
-    "geo": {
-    "lat": "-38.2386",
-    "lng": "57.2232"
-    }
-    },
-    "phone": "024-648-3804",
-    "website": "ambrose.net",
-    "company": {
-    "name": "Hoeger LLC",
-    "catchPhrase": "Centralized empowering task-force",
-    "bs": "target end-to-end models"
-    }
-    }
-    ]
+    "first_name": "Delores",
+    "last_name": "Padly",
+    "gender": "Genderfluid",
+    "email": "dpadly9@pen.io",
+    "avatar": "https://robohash.org/quiaipsamminus.png?size=50x50&set=set2"
+  }, {
+    "id": 11,
+    "first_name": "Nari",
+    "last_name": "Burkwood",
+    "gender": "Female",
+    "email": "nburkwooda@1und1.de",
+    "avatar": "https://robohash.org/exdolorescupiditate.png?size=50x50&set=set2"
+  }, {
+    "id": 12,
+    "first_name": "Antonia",
+    "last_name": "Davidovic",
+    "gender": "Female",
+    "email": "adavidovicb@weibo.com",
+    "avatar": "https://robohash.org/autsunteos.png?size=50x50&set=set2"
+  }, {
+    "id": 13,
+    "first_name": "Sandy",
+    "last_name": "Prestney",
+    "gender": "Male",
+    "email": "sprestneyc@networkadvertising.org",
+    "avatar": "https://robohash.org/teneturatet.png?size=50x50&set=set2"
+  }, {
+    "id": 14,
+    "first_name": "Arliene",
+    "last_name": "Dibley",
+    "gender": "Male",
+    "email": "adibleyd@hao123.com",
+    "avatar": "https://robohash.org/voluptateeumvitae.png?size=50x50&set=set2"
+  }, {
+    "id": 15,
+    "first_name": "Jamill",
+    "last_name": "Medina",
+    "gender": "Female",
+    "email": "jmedinae@usnews.com",
+    "avatar": "https://robohash.org/quisquametconsequatur.png?size=50x50&set=set2"
+  }, {
+    "id": 16,
+    "first_name": "Jerad",
+    "last_name": "Allnutt",
+    "gender": "Female",
+    "email": "jallnuttf@state.gov",
+    "avatar": "https://robohash.org/sedcupiditatereiciendis.png?size=50x50&set=set2"
+  }, {
+    "id": 17,
+    "first_name": "Dalston",
+    "last_name": "Brennand",
+    "gender": "Female",
+    "email": "dbrennandg@cbc.ca",
+    "avatar": "https://robohash.org/commodimollitiaet.png?size=50x50&set=set2"
+  }, {
+    "id": 18,
+    "first_name": "Maryanne",
+    "last_name": "Woollhead",
+    "gender": "Male",
+    "email": "mwoollheadh@paginegialle.it",
+    "avatar": "https://robohash.org/aliasrerummollitia.png?size=50x50&set=set2"
+  }, {
+    "id": 19,
+    "first_name": "Maud",
+    "last_name": "Randals",
+    "gender": "Female",
+    "email": "mrandalsi@taobao.com",
+    "avatar": "https://robohash.org/molestiasrerumid.png?size=50x50&set=set2"
+  }, {
+    "id": 20,
+    "first_name": "Florie",
+    "last_name": "Tenbrug",
+    "gender": "Female",
+    "email": "ftenbrugj@facebook.com",
+    "avatar": "https://robohash.org/nostrumarchitectobeatae.png?size=50x50&set=set2"
+  }]
 
-console.log(people[2].address)
+const SetUpList = function(people) {
+    people.map((person) => {
+
+        const peopleList = document.querySelector(".list")
+        const peopleListItem = document.createElement("li")
+        const peopleListName = document.createElement("p")
+        const peopleListAvatar = document.createElement("img")
+
+        peopleListName.innerHTML = person.first_name
+        peopleListAvatar.src = person.avatar
+
+        peopleList.appendChild(peopleListItem)
+        peopleListItem.appendChild(peopleListName)
+        peopleListItem.appendChild(peopleListAvatar)
+    })
+  }
+
+  SetUpList(people)
+
+  console.log(people)
